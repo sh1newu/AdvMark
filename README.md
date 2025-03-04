@@ -4,6 +4,10 @@ Paper Link: https://doi.org/10.24963/ijcai.2024/673
 
 ***Watermak signals are imperceptible to human eyes but can interfere with Deepfake detectors.***
 
+**Quick Test (3/4/2025)**
+We have released the adversarially finetuned model (based on Xception) [***here***](https://drive.google.com/drive/folders/1h93NcAJXE21CsDluMyDdBdKGY5aV1pLC?usp=sharing) for possible comparison. Now it is convenient to quickly test the robustness of AdvMark and enjoy the same testing procedure
+ as [SepMark](https://github.com/sh1newu/SepMark) by simply modifying the config file.
+
 **Reference only**  
 Due to the numerous experiments conducted, we regrettably did not save all the code from the intermediate processes. Therefore, the code [here](https://github.com/sh1newu/AdvMark/tree/main/Reference/network) is for reference only. As you can see, the implementation is quite simple and consists of just a few lines. We expect that you can implement the method based on any existing proactive watermarking model and passive Deepfake detectors you prefer. In addition, we provide the [dataset](https://drive.google.com/drive/folders/1NKnkhh5102pPs8DP-2MZ74r7uzUVWZov?usp=sharing) and [detectors](https://drive.google.com/drive/folders/1771ni4ERqjGkwcj_FlHWJZK7wf9o7fEf?usp=sharing) used in the experiments.
 
